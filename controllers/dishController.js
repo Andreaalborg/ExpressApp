@@ -1,4 +1,5 @@
 const AWS = require('aws-sdk');
+const db = require('../database');
 const dynamoDB = new AWS.DynamoDB.DocumentClient();
 const tableName = process.env.DYNAMODB_TABLE_NAME;
 

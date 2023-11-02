@@ -1,4 +1,5 @@
 const AWS = require('aws-sdk');
+const db = require('../database');
 const s3 = new AWS.S3();
 const bucketName = process.env.S3_BUCKET_NAME;
 
